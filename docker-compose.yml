@@ -4,6 +4,8 @@ volumes:
     driver: local    
   cloudbeaver:
     driver: local
+  geoserver-data:
+    driver: local
 
 services:
   cloudbeaver:
@@ -29,8 +31,42 @@ services:
       POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:-postgres}"
     restart: on-failure
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d cense"]
-      interval: 60s
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d cense"]
+      interval: 5s
       timeout: 5s
       retries: 5
+  geoserver:
+    build:
+      context: ./geoserver
+    depends_on:
+      postgis:
+        condition: service_healthy
+    volumes:
+      - geoserver-data:/opt/
+    restart: always
+    ports:
+     - '9080:8080'
+    environment:
+      CORS_ENABLED: true
+      GEOSERVER_DATA_DIR: /opt/geoserver_data/
+      GEOSERVER_ADMIN_PASSWORD: "${GEOSERVER_ADMIN_PASSWORD}"
+      GEOSERVER_ADMIN_USER: "${GEOSERVER_ADMIN_USER}"
+      RUN_UNPRIVILEGED: true
+      ROOT_WEBAPP_REDIRECT: true
+      SKIP_DEMO_DATA: true
+      GEOSERVER_CSRF_WHITELIST: cense.noise-planet.org
+      PROXY_BASE_URL: https://nm.noise-planet.org/geoserver/
+  webpage:
+    build:
+      context: ./
+    ports:
+      - "8080:80"
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
 
