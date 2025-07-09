@@ -1,0 +1,17 @@
+<layer>
+  <name>cense_armoires</name>
+  <id>LayerInfoImpl--a6c9a45:17578e40b68:-7731</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a6c9a45:17578e40b68:-772f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a6c9a45:17578e40b68:-7732</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-10-30 13:46:28.121 UTC</dateCreated>
+  <dateModified>2020-10-30 13:48:57.273 UTC</dateModified>
+</layer>

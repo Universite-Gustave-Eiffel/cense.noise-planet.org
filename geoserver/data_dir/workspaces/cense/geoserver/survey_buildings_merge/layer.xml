@@ -1,0 +1,28 @@
+<layer>
+  <name>survey_buildings_merge</name>
+  <id>LayerInfoImpl--584d4898:1774900649f:-7e59</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--584d4898:1774900649f:-7e40</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7e47</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7e40</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7e4d</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--584d4898:1774900649f:-7e5a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-01-29 10:50:48.210 UTC</dateCreated>
+  <dateModified>2021-01-29 12:39:06.548 UTC</dateModified>
+</layer>

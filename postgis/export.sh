@@ -1,0 +1,7 @@
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln cense_armoires -sql "SELECT * FROM geoserver.cense_armoires"
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln cense_citybox -update -sql "SELECT * FROM geoserver.cense_citybox"
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln cense_liens -update -sql "SELECT * FROM geoserver.cense_liens"
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln cense_noeuds -update -sql "SELECT * FROM geoserver.cense_noeuds"
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln contouring_noise_map_day_zone_capteur -update -sql "SELECT * FROM geoserver.contouring_noise_map_day_zone_capteur"
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln survey_buildings_merge -update -sql "SELECT * FROM geoserver.survey_buildings_merge"
+ogr2ogr -f GPKG /data/database.gpkg PG:"host=localhost user=postgres dbname=cense password=postgres" -nln survey_resulting_grid -update -sql "SELECT * FROM geoserver.survey_resulting_grid"

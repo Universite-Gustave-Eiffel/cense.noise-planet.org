@@ -1,0 +1,43 @@
+<layer>
+  <name>survey_resulting_grid</name>
+  <id>LayerInfoImpl--584d4898:1774900649f:-7fc5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7e53</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7dd6</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7de7</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7e2a</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7e27</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7dd1</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7dce</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--584d4898:1774900649f:-7de4</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--584d4898:1774900649f:-7fc6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-01-28 12:41:58.278 UTC</dateCreated>
+  <dateModified>2021-01-29 14:33:56.647 UTC</dateModified>
+</layer>
