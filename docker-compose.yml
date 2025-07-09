@@ -60,7 +60,7 @@ services:
     build:
       context: ./
     ports:
-      - "8080:80"
+      - "8085:80"
     restart: always
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
