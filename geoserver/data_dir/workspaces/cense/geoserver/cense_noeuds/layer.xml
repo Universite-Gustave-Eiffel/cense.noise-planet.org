@@ -1,0 +1,16 @@
+<layer>
+  <name>cense_noeuds</name>
+  <id>LayerInfoImpl--a6c9a45:17578e40b68:-7d58</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a6c9a45:17578e40b68:-7d59</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-10-30 12:32:21.773 UTC</dateCreated>
+</layer>

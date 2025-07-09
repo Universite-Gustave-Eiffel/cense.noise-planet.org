@@ -1,0 +1,17 @@
+<layer>
+  <name>cense_citybox</name>
+  <id>LayerInfoImpl--a6c9a45:17578e40b68:-7bff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a6c9a45:17578e40b68:-78e2</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a6c9a45:17578e40b68:-7c00</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-10-30 12:56:01.365 UTC</dateCreated>
+  <dateModified>2020-10-30 13:19:52.34 UTC</dateModified>
+</layer>

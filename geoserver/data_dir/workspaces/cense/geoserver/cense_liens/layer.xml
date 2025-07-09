@@ -1,0 +1,17 @@
+<layer>
+  <name>cense_liens</name>
+  <id>LayerInfoImpl--a6c9a45:17578e40b68:-7af0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--a6c9a45:17578e40b68:-776d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--a6c9a45:17578e40b68:-7af1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-10-30 13:01:27.894 UTC</dateCreated>
+  <dateModified>2020-10-30 13:21:56.723 UTC</dateModified>
+</layer>
